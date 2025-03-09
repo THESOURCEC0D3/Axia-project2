@@ -77,10 +77,14 @@ a{
     gap: 10px;
 }
 
+.left .lessons{
+    color: rgba(77, 77, 77, 1);
+}
+
 h2{
     font-size: 64px;
     font-weight: 600;
-    color: rgb(63, 62, 62);
+    color: rgba(77, 77, 77, 1);
     line-height: 76px;
 }
 
@@ -123,6 +127,7 @@ button{
     font-size: 36px;
     font-weight: 600;
     line-height: 44px;
+    color: rgba(77, 77, 77, 1);
 }
 
 .section2header .secondline{
@@ -142,6 +147,7 @@ button{
     font-size: 28px;
     line-height: 36px;
     font-weight: 600;
+    color: rgba(77, 77, 77, 1);
 }
 
 .body{
@@ -196,4 +202,116 @@ button{
  padding-right: 32px;
  padding-bottom: 24px;
  padding-left: 32px;
+}
+
+.section3{
+    margin-top:52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.side-text{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.section3 .head{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: rgba(77, 77, 77, 1);
+}
+
+.side-text button{
+    background-color: rgba(76, 175, 79, 1);
+    width: 151px;
+    height: 52px;
+    border-radius: 4px;
+}
+
+.section4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.section4  .firstline{
+   font-size: 36px;
+   font-weight: 600;
+   line-height: 44px;
+   color:rgba(77, 77, 77, 1) ; 
+}
+
+.section4 span{
+   font-size: 36px;
+   font-weight: 600;
+   line-height: 44px;
+   color:rgba(76, 175, 79, 1) ; 
+}
+
+.section4 .right{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.section4 .right .num{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    color:rgba(77, 77, 77, 1) ;
+}
+
+.section4 .right .top{
+    display: flex;
+    gap: 90px;
+}
+
+.section4 .right .top .members{
+    display: flex;
+    gap: 16px;
+}
+
+.section4 .right .top .hands{
+    display: flex;
+    gap: 16px;
+}
+
+.section4 .right .bottom{
+    display: flex;
+    gap: 90px;
+}
+
+.section4 .right .bottom .event{
+    display: flex;
+    gap: 16px;
+}
+
+.section4 .right .bottom .payments{
+    display: flex;
+    gap: 16px;
+}
+
+.section5{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 45px;
+}
+
+.section5 .right{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.section5 .right button{
+    background-color: rgba(76, 175, 79, 1);
+    width: 151px;
+    height: 52px;
+    border-radius: 4px;   
 }
