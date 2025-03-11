@@ -12,6 +12,7 @@ body{
 
 .section1{
     background-color: rgba(245, 247, 250, 1);
+    width: 100%;
 }
 
 header{
@@ -20,6 +21,7 @@ header{
     border: o.5px solid rgba(245, 247, 250, 1);
     height: 70px;
     align-items: center;
+    width: 100%;
 }
 
 .container{
@@ -69,6 +71,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .left{
@@ -117,6 +120,7 @@ button{
 
 .section2{
     margin-top: 10px;
+    width: 100%;
 }
 
 .section2header{
@@ -207,6 +211,7 @@ button{
 .section3{
     margin-top:52px;
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
 }
@@ -237,6 +242,7 @@ button{
     align-items: center;
     margin-top: 45px;
     padding-block: 64px;
+    width: 100%;
 }
 
 .section4  .firstline{
@@ -301,6 +307,7 @@ button{
     justify-content:space-between;
     align-items: center;
     gap: 3rem;
+    width: 100%;
     margin-top: 45px;
 }
 
@@ -325,7 +332,7 @@ button{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: px;
+    width: 100%;
     gap: 78px;
     padding-block: 32px;
 }
@@ -380,6 +387,7 @@ button{
 .section7{
     margin-top: 40px;
     display: flex;
+    width: 100%;
     flex-direction: column;
     gap: 20px;
 }
@@ -457,6 +465,7 @@ top: 180px;
 .section8{
     margin-top: 100px;
     display: flex;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     padding-block: 32px;
@@ -488,6 +497,7 @@ top: 180px;
 .section9{
     padding-block: 64px;
     display: flex;
+    width: 100%;
     justify-content:space-between;
     align-items: center;
     color: white;
@@ -564,5 +574,118 @@ line-height: 20px;
     position: absolute;
     right: 5%;
     top: 30%;
+}
+
+@media (max-width:480px){
+  .nav-links{
+    display: none;
+  }
+
+  .login{
+    display: none;
+  }
+
+  .container{
+    max-width: 350px;
+    margin-left: 10px;
+  }
+
+  .left h2,
+  span{
+    font-size: 40px;
+  }
+
+  .part2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    width: 128px;
+    height: 52px;
+    border-radius: 4px;
+    margin-top: 20px;
+    padding-top: 14px;
+    padding-right: 32px;
+    padding-bottom: 14px;
+    padding-left: 32px;
+    background-color: rgba(76, 175, 79, 1);
+    border: 0.1px solid rgba(245, 247, 250, 1);
+    color: white;
+}
+
+.part2 .right img{
+ width: 220px;
+ margin-left: -90px;
+}
+
+.section2{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.section2header{
+    text-align: center;
+    margin-left: -5px;
+    width: 80%;
+}
+
+.section2header .firststline{
+    font-size: 18px;
+}
+
+.section2header .secondline{
+    font-size: 15px;
+}
+
+.section2main{
+    display: flex;
+    flex-wrap:wrap ;
+    gap: 60px;
+}
+
+.head{
+    font-size: 18px;
+}
+
+.body{
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.section2main .membership{
+ text-align: center;
+ gap: 3px;
+ width:250px;
+ height: 255px;
+ padding-top: 10px;
+ margin-left: 15px;
+}
+
+.section2main .associations{
+    text-align: center;
+    gap: 3px;
+ width:250px;
+ height: 235px;
+ padding-top: 14px;
+ margin-left: 15px;
+}
+
+.section2main .clubs{
+    text-align: center;
+    gap: 8px;
+ width:250px;
+ height: 235px;
+ padding-top: 14px;
+ margin-left: 15px;
+}
 }
 
